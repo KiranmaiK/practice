@@ -1,0 +1,15 @@
+package net.antra.training.assignments.dao;
+
+import java.util.List;
+
+import net.antra.training.assignments.entity.Employee;
+
+public interface EmployeeDao {
+
+    public void save(Employee employee) throws Exception;
+
+    public List<Employee> findAll() throws Exception;
+
+    public List<Employee> findByIds(Integer[] employeeIds) throws Exception;
+
+}
