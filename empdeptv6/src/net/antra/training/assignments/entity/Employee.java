@@ -1,5 +1,9 @@
 package net.antra.training.assignments.entity;
 
+/**
+ * Kiranmai Kovuru
+ */
+
 import java.io.Serializable;
 
 import javax.persistence.Column;
