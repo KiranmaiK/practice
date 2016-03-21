@@ -20,6 +20,7 @@ public class Department {
     private String departmentEmail;
     private List<Employee> departmentEmployees;
 
+
     public Department() {
 
     }
@@ -58,7 +59,7 @@ public class Department {
 	this.departmentEmail = departmentEmail;
     }
 
-    @OneToMany(mappedBy = "department", fetch=FetchType.EAGER, targetEntity=Employee.class)
+    @OneToMany(mappedBy = "department", fetch = FetchType.EAGER, targetEntity = Employee.class)
     public List<Employee> getDepartmentEmployees() {
 	return departmentEmployees;
     }
@@ -70,5 +71,7 @@ public class Department {
     public void addEmployee(Employee employee) {
 	departmentEmployees.add(employee);
     }
+
+  
 
 }
