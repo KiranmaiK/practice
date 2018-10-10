@@ -20,13 +20,13 @@
 
 	<br>
 	<span style="text-align: center; display: block;">
-	 <a href="EmployeeAddServlet">Add Employee</a>
+	 <a href="EmployeeAddServlet">Add Employees</a>
 	</span>
 
 
 	<br>
 	<span style="text-align: center; display: block;">
-	 <a href="DepartmentAddServlet">Add Department</a>
+	 <a href="DepartmentAddServlet">Add Departments</a>
 	</span>
 </body>
 </html>

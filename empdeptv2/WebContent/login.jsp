@@ -21,7 +21,7 @@
 	Object isLoginFailure = request.getAttribute("isLoginFailure");
 	if(isLoginFailure != null && "true".equals(isLoginFailure)) {
 %>
-	<h5 align="center">Incorrect username or password</h5>
+	<h5 align="center">Incorrect user or password</h5>
 <%		
 	}
 %>
