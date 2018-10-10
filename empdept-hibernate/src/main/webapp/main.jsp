@@ -15,7 +15,7 @@
 
 	<br>
 	<span style="text-align: center; display: block;">
-	 <a href="LogoutServlet">Employee Logout</a>
+	 <a href="LogoutServlet">Logout</a>
 	</span>
 
 	<br>
